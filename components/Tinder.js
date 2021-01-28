@@ -102,7 +102,7 @@ return {
       <Animated.View style={{opacity:this.dislikeOpacity,transform:[{rotate:'-30deg'}],position:'absolute',top:90,left:50,zIndex:1000}}>
       <Text style={{borderWidth:1,borderColor:'green',color:'green',fontSize:32,fontWeight:'900',padding:10}}>LIKE</Text></Animated.View>
                    {this.props.renderCards(item)}
-                    </Animated.View >
+                    </Animated.View>
                 )
             }
             return (

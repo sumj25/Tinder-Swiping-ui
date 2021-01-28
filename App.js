@@ -11,6 +11,7 @@ import { Card, Paragraph } from 'react-native-paper';
 
 import Tinder from './components/Tinder';
 
+
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SCREEN_WIDTH= Dimensions.get('window').width
 const mydata = [
